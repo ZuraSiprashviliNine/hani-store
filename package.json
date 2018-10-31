@@ -1,0 +1,31 @@
+{
+  "name": "hani-store",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "next-redux-wrapper": "^1.3.5",
+    "node-gyp": "^3.8.0",
+    "react": "^16.6.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-thunk": "^2.3.0"
+  }
+}

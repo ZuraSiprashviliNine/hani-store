@@ -1,0 +1,15 @@
+
+$bg: #323232;
+
+body{
+  background-color: $bg;
+}
+
+.Application, #Application{
+  transition: opacity 1s;
+  visibility: visible;
+  &.pending{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
